@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Zord
+  m_Controller: {fileID: 9100000, guid: c1a2817f7e57445d8a91a5dc5da0eb5e, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 3146e5197ffea4dc8864e620ded20cc3,
+      type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 11b4dc3eaeecf4e78ab18bc4f42b9d84,
+      type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 07f9b1ef319424c99be05c4e2452145e,
+      type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: d71e0efb110134dec9c4e3aa0426c2f6,
+      type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 74ee487ce98ec40c28fdaea66ebc2f49,
+      type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 8f311373217454b39a320c2a525360f1,
+      type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 67f150df7e48f40028f47b94a024513c,
+      type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: c2a0095cdb8094a9ca3c581b39c1ee8e,
+      type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 5aba92f4a931448fe94a53b6ffe75c94,
+      type: 3}
+    m_OverrideClip: {fileID: 4893614100743478016, guid: d2099f505e4515644bd8be3774ed2001,
+      type: 3}

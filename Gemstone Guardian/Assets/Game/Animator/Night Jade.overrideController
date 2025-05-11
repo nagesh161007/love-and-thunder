@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Night Jade
+  m_Controller: {fileID: 9100000, guid: c1a2817f7e57445d8a91a5dc5da0eb5e, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 3146e5197ffea4dc8864e620ded20cc3,
+      type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 640da4418000845069e5e430d3711381,
+      type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 07f9b1ef319424c99be05c4e2452145e,
+      type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: c717d9526fcd248d29c13d75db764004,
+      type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 74ee487ce98ec40c28fdaea66ebc2f49,
+      type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 8c3d79d185ba64033807388ddd8756c7,
+      type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 67f150df7e48f40028f47b94a024513c,
+      type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 98e1909acd1f241c887097bcc7faffe6,
+      type: 3}

@@ -1,0 +1,323 @@
+Unity Editor version:    2022.3.14f1 (eff2de9070d8)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.0 (Build 23A344)
+Darwin version:          23.0.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/nageshsairam/Gemstone Guardian
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52462
+Successfully changed project path to: /Users/nageshsairam/Gemstone Guardian
+/Users/nageshsairam/Gemstone Guardian
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8153469696] Host "[IP] 10.0.0.241 [Port] 0 [Flags] 2 [Guid] 2787794510 [EditorId] 2787794510 [Version] 1048832 [Id] OSXEditor(0,nageshs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8153469696] Host "[IP] 10.0.0.241 [Port] 0 [Flags] 2 [Guid] 2787794510 [EditorId] 2787794510 [Version] 1048832 [Id] OSXEditor(0,nageshs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 27.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/nageshsairam/Gemstone Guardian/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.14f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001463 seconds.
+- Loaded All Assemblies, in  0.351 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.189 seconds
+Domain Reload Profiling: 540ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
+		LoadAssemblies (118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (124ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (190ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (139ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.584 seconds
+Refreshing native plugins compatible for Editor in 1.60 ms, found 4 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.598 seconds
+Domain Reload Profiling: 1183ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (409ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (190ms)
+				TypeCache.ScanAssembly (172ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (598ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (418ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.23 seconds
+Refreshing native plugins compatible for Editor in 1.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6057 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (1.2 MB). Loaded Objects now: 6527.
+Memory consumption went from 341.7 MB to 340.5 MB.
+Total: 3.485667 ms (FindLiveObjects: 0.197708 ms CreateObjectMapping: 0.091500 ms MarkObjects: 2.786959 ms  DeleteObjects: 0.408833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1597454.711848 seconds.
+  path: Assets/PolygonDungeonRealms/Scenes/GameScene.unity
+  artifactKey: Guid(d515063cc7e552649959320dfe40578b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeonRealms/Scenes/GameScene.unity using Guid(d515063cc7e552649959320dfe40578b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ed8efa5dddf57da5859a207ecec344') in 0.001798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10 unused Assets / (1.3 MB). Loaded Objects now: 6527.
+Memory consumption went from 210.3 MB to 209.0 MB.
+Total: 7.070250 ms (FindLiveObjects: 0.244375 ms CreateObjectMapping: 0.087750 ms MarkObjects: 6.490375 ms  DeleteObjects: 0.247000 ms)
+
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a segv while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Native stacktrace:
+=================================================================
+	0x29bbc71a4 - /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_dump_native_crash_info
+	0x29bb896a0 - /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_handle_native_crash
+	0x29bb11e3c - /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_sigsegv_signal_handler_debug
+	0x18ed29a24 - /usr/lib/system/libsystem_platform.dylib : _sigtramp
+	0x10374bc50 - /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MacOS/Unity : _ZNK4core8hash_setINS_4pairIKNS_12basic_stringIcNS_20StringStorageDefaultIcEEEEN8keywords12LocalKeywordELb1EEENS_9hash_pairINS_4hashIS5_EES5_S8_EENS_10equal_pairINSt3__18equal_toIS5_EES5_S8_EEE6lookupIS5_SI_EEPNSJ_4nodeERKT_RKT0_
+	0x103748584 - /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MacOS/Unity : _ZN8keywords12KeywordRemap4InitERKNS_10LocalSpaceES3_
+	0x10374e258 - /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MacOS/Unity : _ZN9ShaderLab9IntShader15ResolveFallbackERKNS_16SerializedShaderEP6ShaderR13dynamic_arrayI4PPtrIS4_ELm0EEb
+	0x10371a3cc - /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MacOS/Unity : _ZN9ShaderLab9IntShader36CreateFromSerializedShaderMainThreadEPS0_RKNS_16SerializedShaderER13dynamic_arrayI4PPtrI6ShaderELm0EEbPS7_
+	0x10371e0e0 - /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MacOS/Unity : _Z36ShaderFromSerializedShaderMainThreadPN9ShaderLab9IntShaderEPKNS_16SerializedShaderER13dynamic_arrayI4PPtrI6ShaderELm0EEbPS7_
+	0x105153b9c - /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MacOS/Unity : _ZN6Shader20CreateFromParsedFormEv
+	0x105153e68 - /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MacOS/Unity : _ZN6Shader13AwakeFromLoadE17AwakeFromLoadMode
+	0x103a9f7cc - /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MacOS/Unity : _ZN18AwakeFromLoadQueue28InvokePersistentManagerAwakeEPNS_4ItemEj17AwakeFromLoadModeb
+	0x103a9f4d8 - /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MacOS/Unity : _ZN18AwakeFromLoadQueue41PersistentManagerSingleQueueAwakeFromLoadEi17AwakeFromLoadMode
+	0x103a9f214 - /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MacOS/Unity : _ZN18AwakeFromLoadQueue39PersistentManagerAwakeFromLoad_NoChecksE17AwakeFromLoadMode
+	0x103a73bb0 - /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MacOS/Unity : _ZN17PersistentManager27IntegrateAllThreadedObjectsEv
+	0x103a74a94 - /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MacOS/Unity : _ZN17PersistentManager38LoadAndIntegrateAllPreallocatedObjectsENS_9LockFlagsE
+	0x103a76b14 - /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MacOS/Unity : _ZN17PersistentManager11LoadObjectsEPKiib
+	0x104dce13c - /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MacOS/Unity : _Z15ReloadInstancesRK13dynamic_arrayIiLm0EERKN4core8hash_mapIi17ScriptingGCHandleNS3_4hashIiEENSt3__18equal_toIiEEEE
+	0x104dd0234 - /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MacOS/Unity : _Z19ReloadAssetIfLoadedRK9UnityGUID
+	0x104d941dc - /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MacOS/Unity : ___ZZN23AssetImportWorkerClient13HandleMessageERK14PrepareMessageENK3$_4clEv_block_invoke
+	0x18eb4d910 - /usr/lib/system/libdispatch.dylib : _dispatch_client_callout
+	0x18eb5cd9c - /usr/lib/system/libdispatch.dylib : _dispatch_async_and_wait_invoke
+	0x18eb4d910 - /usr/lib/system/libdispatch.dylib : _dispatch_client_callout
+	0x18eb5bfa8 - /usr/lib/system/libdispatch.dylib : _dispatch_main_queue_drain
+	0x18eb5bbc0 - /usr/lib/system/libdispatch.dylib : _dispatch_main_queue_callback_4CF
+	0x18ee19220 - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+	0x18edd6aac - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : __CFRunLoopRun
+	0x18edd5c2c - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : CFRunLoopRunSpecific
+	0x19932e448 - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : RunCurrentEventLoopInMode
+	0x19932e284 - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : ReceiveNextEventCommon
+	0x19932dfdc - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : _BlockUntilNextEventMatchingListInModeWithFilter
+	0x1925b0f90 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : _DPSNextEvent
+	0x192d84b94 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+	0x1925a443c - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication run]
+	0x19257b708 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : NSApplicationMain
+	0x1057edca8 - /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MacOS/Unity : _Z10EditorMainiPPKc
+	0x1057edff4 - /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MacOS/Unity : main
+	0x18e981058 - /usr/lib/dyld : start
+
+=================================================================
+	Telemetry Dumper:
+=================================================================
+Pkilling 0x6402158592x from 0x8153469696x
+Pkilling 0x11560579072x from 0x8153469696x
+Pkilling 0x11215679488x from 0x8153469696x
+Pkilling 0x11200262144x from 0x8153469696x
+Entering thread summarizer pause from 0x8153469696x
+Finished thread summarizer pause from 0x8153469696x.
+Failed to create breadcrumb file (null)/crash_hash_0x0
+debugger-agent: Unable to listen on 39
+
+Waiting for dumping threads to resume
+
+=================================================================
+	External Debugger Dump:
+=================================================================
+
+=================================================================
+	Basic Fault Address Reporting
+=================================================================
+Memory around native instruction pointer (0x10374bc64):0x10374bc54  88 0a 40 b9 0b 01 00 0a 8a 02 40 f9 40 01 0b 8b  ..@.......@.@...
+0x10374bc64  0c 00 40 b9 9f 01 09 6b 21 04 00 54 6f 82 40 39  ..@....k!..To.@9
+0x10374bc74  6d 62 80 39 10 03 80 52 0d 02 0d cb 6e 0a 40 f9  mb.9...R....n.@.
+0x10374bc84  ff 05 00 71 ad 01 8e 9a 0e a0 40 39 11 80 80 39  ...q......@9...9
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+=================================================================
+Obtained 34 stack frames.
+#0  0x0000010374bc64 in core::hash_set<core::pair<core::basic_string<char, core::StringStorageDefault<char>> const, keywords::LocalKeyword, true>, core::hash_pair<core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, core::basic_string<char, core::StringStorageDefault<char>>, keywords::LocalKeyword>, core::equal_pair<std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>, core::basic_string<char, core::StringStorageDefault<char>>, keywords::LocalKeyword>>::node* core::hash_set<core::pair<core::basic_string<char, core::StringStorageDefault<char>> const, keywords::LocalKeyword, true>, core::hash_pair<core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, core::basic_string<char, core::StringStorageDefault<char>>, keywords::LocalKeyword>, core::equal_pair<std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>, core::basic_string<char, core::StringStorageDefault<char>>, keywords::LocalKeyword>>::lookup<core::basic_string<char, core::StringStorageDefault<char>>, core::equal_pair<std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>, core::basic_string<char, core::StringStorageDefault<char>>, keywords::LocalKeyword>>(core::basic_string<char, core::StringStorageDefault<char>> const&, core::equal_pair<std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>, core::basic_string<char, core::StringStorageDefault<char>>, keywords::LocalKeyword> const&) const
+#1  0x00000103748584 in keywords::KeywordRemap::Init(keywords::LocalSpace const&, keywords::LocalSpace const&)
+#2  0x0000010374e258 in ShaderLab::IntShader::ResolveFallback(ShaderLab::SerializedShader const&, Shader*, dynamic_array<PPtr<Shader>, 0ul>&, bool)
+#3  0x0000010371a3cc in ShaderLab::IntShader::CreateFromSerializedShaderMainThread(ShaderLab::IntShader*, ShaderLab::SerializedShader const&, dynamic_array<PPtr<Shader>, 0ul>&, bool, Shader*)
+#4  0x0000010371e0e0 in ShaderFromSerializedShaderMainThread(ShaderLab::IntShader*, ShaderLab::SerializedShader const*, dynamic_array<PPtr<Shader>, 0ul>&, bool, Shader*)
+#5  0x00000105153b9c in Shader::CreateFromParsedForm()
+#6  0x00000105153e68 in Shader::AwakeFromLoad(AwakeFromLoadMode)
+#7  0x00000103a9f7cc in AwakeFromLoadQueue::InvokePersistentManagerAwake(AwakeFromLoadQueue::Item*, unsigned int, AwakeFromLoadMode, bool)
+#8  0x00000103a9f4d8 in AwakeFromLoadQueue::PersistentManagerSingleQueueAwakeFromLoad(int, AwakeFromLoadMode)
+#9  0x00000103a9f214 in AwakeFromLoadQueue::PersistentManagerAwakeFromLoad_NoChecks(AwakeFromLoadMode)
+#10 0x00000103a73bb0 in PersistentManager::IntegrateAllThreadedObjects()
+#11 0x00000103a74a94 in PersistentManager::LoadAndIntegrateAllPreallocatedObjects(PersistentManager::LockFlags)
+#12 0x00000103a76b14 in PersistentManager::LoadObjects(int const*, int, bool)
+#13 0x00000104dce13c in ReloadInstances(dynamic_array<int, 0ul> const&, core::hash_map<int, ScriptingGCHandle, core::hash<int>, std::__1::equal_to<int>> const&)
+#14 0x00000104dd0234 in ReloadAssetIfLoaded(UnityGUID const&)
+#15 0x00000104d941dc in invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_4::operator()() const
+#16 0x0000018eb4d910 in _dispatch_client_callout
+#17 0x446c00018eb5cd9c in _dispatch_async_and_wait_invoke
+#18 0x80880018eb4d910 in _dispatch_client_callout
+#19 0xa46800018eb5bfa8 in _dispatch_main_queue_drain
+#20 0x2e5880018eb5bbc0 in _dispatch_main_queue_callback_4CF
+#21 0xad0c00018ee19220 in __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+#22 0x6c00018edd6aac in __CFRunLoopRun
+#23 0x973300018edd5c2c in CFRunLoopRunSpecific
+#24 0x3c3800019932e448 in RunCurrentEventLoopInMode
+#25 0x67480019932e284 in ReceiveNextEventCommon
+#26 0xb37f80019932dfdc in _BlockUntilNextEventMatchingListInModeWithFilter
+#27 0x30450001925b0f90 in _DPSNextEvent
+#28 0x146d000192d84b94 in -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#29 0x9e498001925a443c in -[NSApplication run]
+#30 0xfb3980019257b708 in NSApplicationMain
+#31 0x2b508001057edca8 in EditorMain(int, char const**)
+#32 0x000001057edff4 in main
+#33 0x0000018e981058 in start
